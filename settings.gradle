@@ -1,1 +1,3 @@
-include ':app', ':vrlib'
+include ':app', ':vrlib', 'ijkplayer-armv7a', 'ijkplayer-java'
+project(':ijkplayer-armv7a').projectDir = new File('../smtplayer-android/android/ijkplayer/ijkplayer-armv7a')
+project(':ijkplayer-java').projectDir = new File('../smtplayer-android/android/ijkplayer/ijkplayer-java')
